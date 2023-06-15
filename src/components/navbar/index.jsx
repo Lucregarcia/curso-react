@@ -7,7 +7,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import CartWidget from '../cart-widget';
 
-
+const cartNum = 4;
 const NavBar = () => {
 return (
     <Box sx={{ flexGrow: 1 }}>
@@ -25,7 +25,7 @@ return (
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             BASSET COMPLEMENTS
             </Typography>
-            <CartWidget />
+            <CartWidget cartLength={cartNum} />
             </Toolbar>
         </AppBar>
     </Box>

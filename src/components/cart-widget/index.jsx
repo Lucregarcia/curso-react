@@ -3,10 +3,10 @@ import IconButton from '@mui/material/IconButton';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Badge from '@mui/material/Badge';
 
-const CartWidget = () => {
+const CartWidget = ({ cartLength }) => {
     return (
         <IconButton aria-label="delete">
-            <Badge badgeContent={4} color="secondary">
+            <Badge badgeContent={cartLength} color="secondary">
                 <ShoppingCartIcon/>
             </Badge>
         </IconButton>
