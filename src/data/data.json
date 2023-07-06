@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "titulo": "Collar Amalfi",
+        "descripcion": "Collar en oro laminado",
+        "categoria": "collares",
+        "imagen": "../img/collar 1.jpg",
+        "precio": 3500,
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "titulo": "Collar Argenta",
+        "descripcion": "Collar de perlas.",
+        "categoria": "collares",
+        "imagen": "../img/collar3.jpg",
+        "precio": 4500,
+        "stock": 10
+    },
+    {
+        "id": 3,
+        "titulo": "Collar LaMadrid",
+        "descripcion": "Collar de perlas y mostacillas.",
+        "categoria": "collares",
+        "imagen": "../img/collar4.jpg",
+        "precio": 4000,
+        "stock": 10
+    },
+    {
+        "id": 4,
+        "titulo": "Anillo diamante",
+        "descripcion": "Anillo en oro laminado con piedra encastrada.",
+        "categoria": "anillos",
+        "imagen": "../img/anillo1.jpg",
+        "precio": 4500,
+        "stock": 10
+    },
+    {
+        "id": 5,
+        "titulo": "Anillo Esmeralda",
+        "descripcion": "Anillo con piedra color esmeralda.",
+        "categoria": "anillos",
+        "imagen": "../img/anillo2.jpg",
+        "precio": 5500,
+        "stock": 10
+    },
+    {
+        "id": 6,
+        "titulo": "Aros Esmeralda",
+        "descripcion": "Aros en oro laminado con piedra color esmeralda.",
+        "categoria": "aros",
+        "imagen": "../img/aros1.jpg",
+        "precio": 4500,
+        "stock": 10
+    },
+    {
+        "id": 7,
+        "titulo": "Aros Perla",
+        "descripcion": "Aros en oro laminado y perlas.",
+        "categoria": "aros",
+        "imagen": "../img/aros2.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 8,
+        "titulo": "Pulsera Mar Azul",
+        "descripcion": "Pulsera con apliques de mar.",
+        "categoria": "pulseras",
+        "imagen": "../img/pulsera1.jpg",
+        "precio": 2500,
+        "stock": 10
+    },
+    {
+        "id": 9,
+        "titulo": "Pulsera Amalfi",
+        "descripcion": "Pulsera en oro laminado.",
+        "categoria": "pulseras",
+        "imagen": "../img/pulsera-3.png",
+        "precio": 5000,
+        "stock": 10
+    }
+]
