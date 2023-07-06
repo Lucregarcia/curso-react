@@ -1,5 +1,6 @@
 import { useEffect, useState} from "react";
 import { pedirDatos } from "../helpers/pedirDatos";
+import ItemList from "./ItemList";
 
 
 
@@ -14,7 +15,9 @@ const ItemListContainer = () => {
     }, [])
     
     return (
-        <div>ItemListContainer</div>
+        <div>
+            <ItemList productos={productos} />
+            </div>
     )
     }
 
