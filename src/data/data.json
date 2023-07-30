@@ -6,7 +6,7 @@
         "categoria": "collares",
         "imagen": "../img/collar 1.jpg",
         "precio": 3500,
-        "stock": 10
+        "stock": 20
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "categoria": "collares",
         "imagen": "../img/collar3.jpg",
         "precio": 4500,
-        "stock": 10
+        "stock": 15
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@
         "categoria": "anillos",
         "imagen": "../img/anillo1.jpg",
         "precio": 4500,
-        "stock": 10
+        "stock": 30
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "categoria": "anillos",
         "imagen": "../img/anillo2.jpg",
         "precio": 5500,
-        "stock": 10
+        "stock": 5
     },
     {
         "id": 6,
@@ -60,7 +60,7 @@
         "categoria": "aros",
         "imagen": "../img/aros2.jpg",
         "precio": 1500,
-        "stock": 10
+        "stock": 15
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "categoria": "pulseras",
         "imagen": "../img/pulsera1.jpg",
         "precio": 2500,
-        "stock": 10
+        "stock": 20
     },
     {
         "id": 9,
@@ -78,6 +78,6 @@
         "categoria": "pulseras",
         "imagen": "../img/pulsera-3.png",
         "precio": 5000,
-        "stock": 10
+        "stock": 15
     }
 ]
