@@ -3,6 +3,7 @@ import { pedirItemPorId } from '../helpers/pedirDatos';
 import ItemDetail from "./ItemDetail"
 import { useParams } from "react-router-dom";
 
+
 const ItemDetailConteiner = () => {
 
         const [item, setItem] = useState(null);
