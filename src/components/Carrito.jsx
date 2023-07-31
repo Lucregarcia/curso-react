@@ -11,24 +11,23 @@ const Carrito = () => {
     }
 
     return (
-        <div className='conteiner'>
-            <h1 className='main-title'>Carrito</h1>
+        <div className='carrito' >
+            <h1 className='tituloCarrito'>Carrito</h1>
             
             {
             carrito.map((prod) => (
                 <div key={prod.id}>
-                    <br />
-                    <h3>{prod.titulo}</h3>
-                    <p>Precio unit: ${prod.precio}</p>
-                    <p>Precio total: ${prod.precio * prod.cantidad}</p>
-                    <p>Cant: {prod.cantidad}</p>
-                    <br />
+                    <h3 className='prod'>{prod.titulo}</h3>
+                    <p className='producto1'>Precio unit: ${prod.precio}</p>
+                    <p className='producto1'>Precio total: ${prod.precio * prod.cantidad}</p>
+                    <p className='producto1'>Cant: {prod.cantidad}</p>
                 </div>
             ))
         }
-            { carrito.length > 0 &&  <h2>Total: ${precio()}</h2> }
+            { carrito.length > 0 &&  <h2 className='prod'>Total: ${precio()}</h2> }
             
-            <button onClick={handleVaciar}>Vaciar</button>
+            
+            <button onClick={handleVaciar} className='vaciar'>Vaciar</button>
         </div>
     )
 }
