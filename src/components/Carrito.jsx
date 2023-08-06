@@ -25,11 +25,16 @@ const Carrito = () => {
                 </div>
             ))
         }
-            { carrito.length > 0 &&  <h2 className='prod'>Total: ${precio()}</h2> }
-            
-            <button onClick={handleVaciar} className='vaciar'>Vaciar</button>
-            <Link to="/checkout">Finalizar Compra</Link>
-        </div>
+
+        { 
+        carrito.length > 0 &&  
+        <>
+        <h2 className='prod'>Total: ${precio()}</h2> 
+        <button onClick={handleVaciar} className='vaciar'>Vaciar</button>
+        <Link className='prod' to="/checkout">Finalizar Compra</Link>
+        </>
+        }  
+    </div>
     )
 }
 export default Carrito

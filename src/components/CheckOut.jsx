@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useContext } from 'react';
 import { CartContext } from '../context/CartContext';
 import { useForm } from 'react-hook-form';
-import { collection, addDoc, doc } from "firebase/firestore"
+import { collection, addDoc} from "firebase/firestore"
 import { database } from '../firebase/data';
 
 const CheckOut = () => {

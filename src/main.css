@@ -181,11 +181,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100% ;
 }
 .prod {
     color: black;
     margin: 10px;
     font-size: 25px;
+    text-decoration: none;
 }
 .producto1 {
     font-size: 18px ;
@@ -197,10 +199,31 @@
     width: 4rem;
     height: 2rem;
     color: black;
-    margin: 15px;
+    margin: 10px;
     font-size: 20px;
     display: flex;
     justify-content:center;
     align-items: center;
     text-align: center;
 }
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: flex-start;
+}
+
+.formulario input {
+    padding: .5rem;
+    width: 18rem;
+    border-radius: .5rem;
+    border: 2px solid black;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 2px solid var(--clr-main);
+    outline: 2px solid var(--clr-main);
+}
+
